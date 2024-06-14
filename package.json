@@ -7,16 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "https": "npx local-ssl-proxy --key localhost-key.pem --cert localhost.pem --source 3001 --target 3000"
+    "https": "next dev --experimental-https"
   },
   "dependencies": {
     "axios": "^1.7.2",
     "cookie-parser": "^1.4.6",
     "cookies-next": "^4.2.1",
     "js-cookie": "^3.0.5",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.5",
     "styled-components": "^6.1.11"
   },
@@ -26,7 +26,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3",
+    "eslint-config-next": "^14.2.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"

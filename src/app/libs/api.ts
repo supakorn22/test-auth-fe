@@ -3,7 +3,10 @@ import Cookies from 'js-cookie';
 import { setCookie } from 'cookies-next';
 
 
-const baseURL = 'http://localhost:8080/auth'
+
+
+// const baseURL = 'http://localhost:8080/auth'
+const baseURL = 'https://localhost:8081/auth'
 const axiosInstance = axios.create({
     baseURL: baseURL,
     headers: {
